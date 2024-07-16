@@ -1,2 +1,1 @@
-To recreate the ruff issue, copy the code from `example_failing.py` into a new file and try to run pre-commit without staging the file.
-This will cause pre-commit to flag the changes to the untracked file despite it not being staged.
+To recreate the ruff issue, copy the code from `example_failing.py` into a new file and try to run pre-commit without staging the file. This will cause pre-commit to flag the changes to the untracked file despite it not being staged.
