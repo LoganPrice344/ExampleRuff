@@ -5,4 +5,4 @@ repos:
     - id: ruff-format
     - id: ruff
       pass_filenames: false
-      args: [--fix, --exot-non-zero-on-fix]
+      args: [--fix, --exit-non-zero-on-fix]
